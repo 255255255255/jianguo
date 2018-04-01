@@ -1,0 +1,78 @@
+			body,ul,li,img{
+				padding:0;
+				margin:0;
+			}
+			li{
+				list-style: none;
+			}
+			img{
+				border: none;
+			}
+			#div1 {
+				width: 100%;
+				position: absolute;
+				left: 0;
+				bottom: -20px;
+				height: 100%;
+				overflow:hidden;
+			}
+			#oUl {
+				width:100%;
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				transition: transform .4s cubic-bezier(.445,.05,.55,.95);
+				overflow:hidden;
+			}
+			#oUl li {
+				float: left;
+				width: 13.8%; 
+				position: relative;
+				transition: transform .4s cubic-bezier(.445,.05,.55,.95);
+				will-change: transform;
+			}
+			#oUl li img{
+				width: 100%;
+				max-width: 100%;
+				height: auto;
+				position: relative;
+				will-change: transform;
+				-webkit-transition: transform .3s cubic-bezier(0,.68,.86,.98);
+				transition: transform .3s cubic-bezier(0,.68,.86,.98);
+				cursor: pointer;
+				background-size:contain;
+				background-repeat:  no-repeat;
+			}
+			#oUl li:nth-child(1) img{
+				-webkit-transform: translate3d( 0px,63%,0px);
+			}
+			#oUl li:nth-child(2) img{
+				-webkit-transform: translate3d( 0px,47%,0px);
+			}
+			#oUl li:nth-child(3) img{
+				-webkit-transform: translate3d( 0px,67%,0px);
+			}
+			#oUl li:nth-child(4) img{
+				-webkit-transform: translate3d( 0px,47%,0px);
+			}
+			#oUl li:nth-child(5) img{
+				-webkit-transform: translate3d( 0px,27%,0px);
+			}
+			#oUl li:nth-child(6) img{
+				-webkit-transform: translate3d( 0px,47%,0px);
+			}
+			#oUl li:nth-child(7) img{
+				-webkit-transform: translate3d( 0px,61%,0px);
+			}
+			#oUl li.prev{
+				transform: translate3d(-13%,0,0);  /*X轴负的百分比*/
+			}
+			#oUl li.next{
+				transform: translate3d(13%,0,0); /*X轴正的百分比*/
+			}
+			#abc li:nth-child(n) img{
+				transform:translate3d(0,25%,0);;
+			}
+			#abc ul li.lager img{
+				transform:translate3d(0,15%,0);;
+			}
