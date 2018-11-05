@@ -26,7 +26,7 @@ K=Y轴的值
 
 我们可以获取到每一张图片`aImg[j]`距离屏幕最上面的距离h1，我们还可以获取到它的定位父级（li）距离屏幕最上面的距离h2
 
-那么,很明显 `h=h1-h2`
+那么,很明显 `h=h1-h2`。
 
 ![ ](https://www.cnblogs.com/images/cnblogs_com/cliy-10/1297094/o_4.png)
 
